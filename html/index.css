@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    background-color: #ECECEC;
+}
+.home-section{
+    background-color: #ECECEC;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+
+.navbar {
+    height: 100vh;
+    width: 25vw;
+    background-color: #D9D9D9;
+    text-align: center;
+    position: fixed;
+    display: none;
+}
+.img-animal{
+    padding:  50px 0 0 0;
+    text-align: center;
+}
+#img-an {
+    width: 10vw;
+    height: 20vh;
+    border-radius: 100px;
+}
+#name{
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 50px;
+}
+.logo-social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 40px 0;
+}
+
+.logo-social ul {
+    display: flex;
+}
+.logo-social ul li{
+    list-style: none;
+}
+.logo-social ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+    font-size: 1.3rem;
+}
+.nav-items{
+    width: 100%;
+}
+.nav-items li{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: system-ui;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+    width: 50vw;
+    padding-left: 10vw;
+}
+.heading h1{
+    font-family: 'Ink Free', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.heading h2{
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-family: system-ui;
+    margin-top: -10px;
+}
+.image-face{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    width: 100%;
+}
+#face-img{
+    height: 100vh;
+}
+#about{
+    width: 100vw;
+    height: 105vh;
+}
+.h{
+        font-size: 3rem;
+        font-family: monospace;
+}
+.about{
+    padding: 7vw 10vw 2vh 10vw;
+}
+.about h1,p{
+    color: #FFFFFF;
+}
+.about p{
+        font-size: 1.5rem;
+        font-family: system-ui;
+        font-weight: 300;
+}
+.skills p{
+    font-size: 1.5rem;
+    font-family: system-ui;
+    font-weight: 300;
+}
+.skills h1,p{
+    color: #FFFFFF;
+}
+.skills{
+    padding:5vh 10vw;
+}
+.p-h{
+    color: #FFFFFF;
+    font-family: system-ui;
+    display: block;
+    font-size: 1.2rem;
+}
+.prog-bar{
+    margin: 2vh 0px;
+}
+.prog{
+    padding: 0px 10vw;
+}
+progress{
+    width: 60vw;
+}
+.obj-pg{
+    font-size: 1.3rem;
+    font-family: system-ui;
+    font-weight: 300;
+    color: #000000;
+}
+.obj-h {
+    color: #322e2e;
+    font-family: system-ui;
+    font-weight: 400;
+    padding: 2vh 0vw;
+}
+.obj-pg-S{
+    font-size: 1rem;
+    font-family: system-ui;
+    font-weight: 400;
+    color: #474747;
+}
+.obj-sb-h{
+        font-family: sans-serif;
+        font-weight: 500;
+        padding: 3vh 0vw 1vh;
+}
+.obj-sb-h-l{
+    font-family: sans-serif;
+        font-weight: 500;
+        padding: 3vh 0vw 0vh;
+}
+.box{
+    height: 15vh;
+    background-color: #b0aeae;
+    width: 150px;
+}
+.card{
+    display: flex;
+    padding: 5vh 0px;
+}
+.project-h{
+    font-size: 1.6rem;
+    color: white;
+    font-family: system-ui;
+    font-weight: 400;
+}
+.project-p{
+    color: #e9e9e9;
+    font-size: 1.2rem;
+    padding-top: 1vh;
+}
+.form-input {
+    width: 56vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: 2px;
+    padding: 5px;
+}
+#btn{
+    padding: 10px 20px;
+    border: 2px;
+    border-radius: 5px;
+    background-color: #3f3f3f;
+    color: white;
+    margin-top: 4vh;
+}
+#btn:hover{
+    transform: scale(1.1);
+}
+footer div ul li{
+    padding: 10px 20px 0px 20px;
+    list-style-type: none;
+}
+footer div ul li a{
+    color: rgb(167, 167, 167);
+    font-size: 1.7rem;
+}
+footer div ul li a:hover{
+    color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    .image-face {
+      display: none;
+    }
+    .heading {
+        width: 100%;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .obj-pg{
+        font-size: 1.2rem;
+    }
+    .about p{
+        font-size: 1.2rem;
+    }
+    .skills p{
+        font-size: 1.2rem;
+    }
+    form div{
+        flex-direction: column;
+    }
+    .form-input{
+        width: 56vw;
+    }
+  }
